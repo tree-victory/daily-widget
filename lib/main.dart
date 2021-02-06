@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './screen/imagefilter_screen.dart';
+import './screen/switchListTile_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: ImageFilterScreen(),
+      home: SwitchListTileScreen(),
     );
   }
 }
