@@ -12,4 +12,6 @@
 
 #### [SwitchListTile](https://github.com/tree-victory/daily-widget/blob/master/lib/screen/switchListTile_screen.dart) (2021/02/06) [블로그](https://blog.naver.com/flutter_dart/222234329154, "네이버 블로그")
 
-#### GridView (2021/02/14) [블로그](https://blog.naver.com/PostView.nhn?blogId=flutter_dart&logNo=222242906148&categoryNo=6&parentCategoryNo=&from=thumbnailList, "네이버 블로그")
+#### [GridView](https://github.com/tree-victory/daily-widget/blob/master/lib/screen/gridView_screen.dart) (2021/02/14) [블로그](https://blog.naver.com/PostView.nhn?blogId=flutter_dart&logNo=222242906148&categoryNo=6&parentCategoryNo=&from=thumbnailList, "네이버 블로그")
+
+#### InteractiveViewer (2021/02/15) [블로그](https://blog.naver.com/PostView.nhn?blogId=flutter_dart&logNo=222244192706&categoryNo=6&parentCategoryNo=&from=thumbnailList)
