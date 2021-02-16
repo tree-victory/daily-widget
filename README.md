@@ -14,4 +14,6 @@
 
 #### [GridView](https://github.com/tree-victory/daily-widget/blob/master/lib/screen/gridView_screen.dart) (2021/02/14) [블로그](https://blog.naver.com/PostView.nhn?blogId=flutter_dart&logNo=222242906148&categoryNo=6&parentCategoryNo=&from=thumbnailList, "네이버 블로그")
 
-#### InteractiveViewer (2021/02/15) [블로그](https://blog.naver.com/PostView.nhn?blogId=flutter_dart&logNo=222244192706&categoryNo=6&parentCategoryNo=&from=thumbnailList)
+#### [InteractiveViewer](https://github.com/tree-victory/daily-widget/blob/master/lib/screen/interactiveViewer_screen.dart) (2021/02/15) [블로그](https://blog.naver.com/PostView.nhn?blogId=flutter_dart&logNo=222244192706&categoryNo=6&parentCategoryNo=&from=thumbnailList)
+
+#### AboutDialog (2021/02/16) [블로그](https://postfiles.pstatic.net/MjAyMTAyMTZfODEg/MDAxNjEzNDU2MTE0OTc4.z0lJK6yhDK9KV2fp481C_Vgh_vgRAvFsdTxpU4u8Dk8g.AR8vgKvTZl_EqaLUGgJfoyTxmWtbWyyNPiJV1GEUEnEg.PNG.flutter_dart/Screenshot_1613456077.png?type=f238)

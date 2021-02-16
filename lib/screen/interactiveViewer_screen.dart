@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class InteractiveViewerScreen extends StatelessWidget {
+  static final route = '/InteractiveViewer';
   TransformationController _tfController = TransformationController();
   var _isScaled = false;
   @override

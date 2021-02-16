@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
+import './screen/home_screen.dart';
 import './screen/imagefilter_screen.dart';
 import './screen/switchListTile_screen.dart';
 import './screen/gridView_screen.dart';
 import './screen/interactiveViewer_screen.dart';
+import './screen/aboutDialog_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +21,15 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: InteractiveViewerScreen(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => HomeScreen(),
+        GridViewScreen.route: (context) => GridViewScreen(),
+        ImageFilterScreen.route: (context) => ImageFilterScreen(),
+        SwitchListTileScreen.route: (context) => SwitchListTileScreen(),
+        InteractiveViewerScreen.route: (context) => InteractiveViewerScreen(),
+        AboutDialogScreen.route: (context) => AboutDialogScreen(),
+      },
     );
   }
 }

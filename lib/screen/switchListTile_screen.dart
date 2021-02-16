@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class SwitchListTileScreen extends StatefulWidget {
+  static final route = '/SwitchListTile';
+
   @override
   _SwitchListTileScreenState createState() => _SwitchListTileScreenState();
 }

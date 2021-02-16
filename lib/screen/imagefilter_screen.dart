@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class ImageFilterScreen extends StatelessWidget {
+  static final route = '/ImageFilter';
   ImageFilter _blurFilter = ImageFilter.blur(sigmaX: 3, sigmaY: 3);
   ImageFilter _matrixDefault = ImageFilter.matrix(
       Matrix4(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1).storage);

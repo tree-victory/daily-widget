@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class GridViewScreen extends StatelessWidget {
+  static final route = '/GridView';
   @override
   Widget build(BuildContext context) {
     print(MediaQuery.of(context).size.width);
