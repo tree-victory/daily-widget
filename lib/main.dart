@@ -7,6 +7,7 @@ import './screen/gridView_screen.dart';
 import './screen/interactiveViewer_screen.dart';
 import './screen/aboutDialog_screen.dart';
 import './screen/checkboxListTile_screen.dart';
+import './screen/padding_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
         InteractiveViewerScreen.route: (context) => InteractiveViewerScreen(),
         AboutDialogScreen.route: (context) => AboutDialogScreen(),
         CheckboxListTileScreen.route: (context) => CheckboxListTileScreen(),
+        PaddingScreen.route: (context) => PaddingScreen(),
       },
     );
   }
